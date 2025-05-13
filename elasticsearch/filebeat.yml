@@ -1,0 +1,8 @@
+# Filebeat configuration
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/auth.log  # Path to the log file
+output.logstash:
+  hosts: ["localhost:5044"]
