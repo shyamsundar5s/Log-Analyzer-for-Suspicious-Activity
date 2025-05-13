@@ -1,0 +1,6 @@
+{
+  "title": "Suspicious Activity Dashboard",
+  "panelsJSON": "[{\"type\":\"visualization\",\"id\":\"brute-force-visualization\"},{\"type\":\"visualization\",\"id\":\"unusual-logins-visualization\"}]",
+  "optionsJSON": "{\"darkTheme\":false}",
+  "version": 1
+}
